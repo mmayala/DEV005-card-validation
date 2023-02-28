@@ -7,18 +7,20 @@
   </head>
   <body>
     <header>
-      <h1> VALIDACION DE TARJETA</h1>
+      <h1 class="titulo">Validar Tarjeta de Credito</h1>
+      <img class="img1" src="https://www.bancodeloja.fin.ec/Portals/0/adam/Submenu/UZU8JChbT0iKwm5xRABT9w/Icon/INFINITE.jpg?w=300&h=200&mode=crop"/>
     </header>
-        <main></main>
-       
-        <form action="" class="NumerodeTarjeta">
-       <label for="NumerodeTarjeta">Numero de Tarjeta</label>
-          <input type="text" name="NumerodeTarjeta" required="" pattern="[0-9]+" id="NumerodeTarjeta" >
-        <br>
-        <button>Enviar</button>
-      </form>
+    <main>
 
-
+      <div class="nan">
+        <label>Numero de Tarjeta</label>
+        <input type="text" id="tarjeta" name="numeroTc"  maxlength="16"> 
+        <button id="validar" class="boton"> Haz clic  para validar</button>  
+      </div>
+      <h3 class = "imprimir" id="imprimir"></h3>
+      <h4 class = "ocultar" id="ocultar"></h4> 
+      
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
