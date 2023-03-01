@@ -1,0 +1,86 @@
+*{
+  font-family: 'Poppins', san serif;
+  margin: 0; padding-left: 0;
+  box-sizing: border-box;
+  outline: none; border: auto;
+  text-decoration:none;
+  text-transform: uppercase;
+  align-items: center;
+  background-color: #e1edb8;
+  padding: 1m 2m;
+
+}
+.titulo{
+  min-height: 10vh;
+  font-family: cursive;
+  text-align: center;
+  color: rgb(225, 15, 15);
+  margin: 50px;
+ 
+}
+.nan{
+  min-height: 20vh;
+  background:#9fa3e2;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60 px;
+  margin: 30px;
+  font-family: cursive;
+  
+}
+.nan label{
+  width: 300px;
+  height:100px;
+  padding: 40px;
+  border-radius:  50px;
+  border: dashed;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 20px;
+  
+}
+.nan input{
+  width: 300px;
+  height:100px;
+  padding: 10px;
+  border: dashed;
+  color:green;
+  font-size: 25px;
+  display: block;
+
+  }
+  
+
+.img1{
+  width: 400px;
+  height: 250px;
+  display: block;
+  padding: 20px;
+  margin: auto;
+  border:dotted;
+  border-color: orange;
+
+}
+  
+
+.boton{
+  width: 200px;
+  height: 80px;
+  color: purple;
+  border: dashed;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.imprimir {
+  text-align: center;
+  color: #1f05a4;
+  padding: 15px;
+  font-size: x-large;
+}
+.ocultar{
+  text-align: center;
+  color: #a40599;
+  padding: 15px;
+  font-size: x-large;
+}
