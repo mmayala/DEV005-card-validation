@@ -50,3 +50,4 @@ Se utilizaron tres herramientas de programación:
 Se realizo el diseño de la página web en base a las necesidades del cliente y objetivos de aprendizaje.
 ![image](https://user-images.githubusercontent.com/124645862/222320990-2179d28f-76e1-4b7e-ab1d-8c5af299951b.png)
 
+Si deseas conocer mi proyecto puedes ir al siguiente enlace https://mmayala.github.io/DEV005-card-validation/
