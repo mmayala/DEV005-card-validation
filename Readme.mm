@@ -1,4 +1,3 @@
-
 #TARJETA DE CREDITO VALIDA
 
 # 1. Preámbulo
