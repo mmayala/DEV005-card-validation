@@ -1,3 +1,11 @@
+body{
+  background-image: url(https://c8.alamy.com/compes/2a8rx23/un-simbolo-de-corazon-la-mitad-de-los-granos-de-cafe-la-mitad-de-cafe-en-polvo-sobre-un-fondo-blanco-aislado-2a8rx23.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+}
+
 *{
   font-family: 'Poppins', san serif;
   margin: 0; padding-left: 0;
@@ -6,47 +14,54 @@
   text-decoration:none;
   text-transform: uppercase;
   align-items: center;
-  background-color: #e1edb8;
   padding: 1m 2m;
 
 }
 .titulo{
-  min-height: 10vh;
-  font-family: cursive;
+ font-family: cursive;
   text-align: center;
-  color: rgb(225, 15, 15);
-  margin: 50px;
- 
+  color: black;
+  margin: 30PX;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: dotted blueviolet 10px;
+  background-color: paleturquoise;
+  
 }
 .nan{
   min-height: 20vh;
   background:#9fa3e2;
   display: flex;
   justify-content: center;
-  padding-bottom: 60 px;
-  margin: 30px;
-  font-family: cursive;
+   margin: 30px;
+  
   
 }
 .nan label{
   width: 300px;
   height:100px;
-  padding: 40px;
+  padding: 30px;
   border-radius:  50px;
-  border: dashed;
-  color: black;
+  border:  5px dashed;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   font-size: 20px;
+  color: green;
+  margin-right: 70px;
+  font-weight: bold;
+  text-align: center;
+  background-color: plum;
   
 }
 .nan input{
   width: 300px;
   height:100px;
   padding: 10px;
-  border: dashed;
-  color:green;
+  border: 5px dashed;
+  color:black;
   font-size: 25px;
   display: block;
+  background-color: gold;
+  font-weight: bold;
 
   }
   
@@ -57,8 +72,9 @@
   display: block;
   padding: 20px;
   margin: auto;
-  border:dotted;
-  border-color: orange;
+  border:dotted 7px;
+  border-color: blue;
+  background-color: pink;
 
 }
   
@@ -67,20 +83,26 @@
   width: 200px;
   height: 80px;
   color: purple;
-  border: dashed;
+  border: 5px dashed;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 70px;
+  background: palegoldenrod;
 
 }
 .imprimir {
   text-align: center;
-  color: #1f05a4;
-  padding: 15px;
-  font-size: x-large;
+  color: blue;
+  margin: 6px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .ocultar{
   text-align: center;
   color: #a40599;
-  padding: 15px;
-  font-size: x-large;
+  margin: 2px;
+  font-size: 30px;
+  font-weight: bold;
 }

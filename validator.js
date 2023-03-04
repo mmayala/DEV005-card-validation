@@ -31,7 +31,7 @@ const validator = {
     }
     //console.log(suma);
     //si el residuo es 0 devuelve un booleano
-    if (suma % 10 === 0){
+    if (suma % 10 === 0 && suma!==0){
       return true;
     } else {
       return false;

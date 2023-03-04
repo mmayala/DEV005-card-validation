@@ -7,13 +7,14 @@ document.getElementById('validar').addEventListener('click', function(){
   const tarjeta = document.getElementById('tarjeta').value;
 
  
-  //imprimir en la web si el resultado
+  //imprimir en la web  el resultado
   
   const resultadoTarjeta = validator.isValid(tarjeta);
   if (resultadoTarjeta === true){
-    imprimir.innerHTML = 'tarjeta valida'
+    imprimir.innerHTML = 'tarjeta valida';
   } else {
-    imprimir.innerHTML = 'tarjeta invalida'
+    imprimir.innerHTML = 'tarjeta invalida';
+    
   }
 
 
