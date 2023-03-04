@@ -11,9 +11,10 @@ document.getElementById('validar').addEventListener('click', function(){
   
   const resultadoTarjeta = validator.isValid(tarjeta);
   if (resultadoTarjeta === true){
-    imprimir.innerHTML = 'tarjeta valida'
+    imprimir.innerHTML = 'tarjeta valida';
   } else {
-    imprimir.innerHTML = 'tarjeta invalida'
+    imprimir.innerHTML = 'tarjeta invalida';
+    
   }
 
 
