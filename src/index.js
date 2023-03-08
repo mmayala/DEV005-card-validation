@@ -1,11 +1,11 @@
 import validator from './validator.js'
 
-const imprimir = document.getElementById('imprimir')
+
 
 // cuando el usuario hace clic se mostrara el mensaje
 document.getElementById('validar').addEventListener('click', function(){
   const tarjeta = document.getElementById('tarjeta').value;
-
+  const imprimir = document.getElementById('imprimir')
  
   //imprimir en la web  el resultado
   
@@ -13,8 +13,7 @@ document.getElementById('validar').addEventListener('click', function(){
   if (resultadoTarjeta === true){
     imprimir.innerHTML = 'tarjeta valida';
   } else {
-    imprimir.innerHTML = 'tarjeta invalida';
-    
+    imprimir.innerHTML = 'tarjeta invalida'; 
   }
 
 
@@ -23,10 +22,10 @@ document.getElementById('validar').addEventListener('click', function(){
   const cc = validator.maskify(tarjeta);
   document.getElementById('ocultar').innerHTML = cc;
 
+
 });
  
 
   
   
  
-//console.log(validator);
